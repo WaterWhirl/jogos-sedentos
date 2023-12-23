@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Font Rubik Doodle Shadow */
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+/* Reset */
+
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  user-select: none;
+  font-family: 'Rubik Doodle Shadow', sans-serif;
+  color: #caf0f8;
+}
+
+body{
+  background-color: #03045e;
+}

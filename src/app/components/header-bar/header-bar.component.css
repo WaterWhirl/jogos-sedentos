@@ -1,0 +1,29 @@
+.container__header-bar{
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-bar__logo{
+  height: 100%;
+  width: 130px;
+  margin-left: 2%;
+  border-radius: 50%;
+  background: linear-gradient(300deg,#90e0ef 30%, #00B4D8);
+  box-shadow: -2px -2px 2px 2px #8FE0EF ;
+}
+
+.header-bar__logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: drop-shadow(5px 5px 5px #00ffff);
+}
+.header-bar__title{
+  margin-left: 20px;
+  font-size: 2.5rem;
+  text-shadow: 4px 4px #0077B6;
+}
